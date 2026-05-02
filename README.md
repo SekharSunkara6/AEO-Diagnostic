@@ -1,6 +1,6 @@
 # 🔍 AEO Diagnostic — Built for Pixii.ai
 
-> **Does AI recommend your product?** Find out in seconds.
+- **Does AI recommend your product?** Find out in seconds.
 
 Built for the **Pixii.ai Founding Engineer Challenge 2026** by Sunkara PurnaSekhar.
 
