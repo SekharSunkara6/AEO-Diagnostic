@@ -273,7 +273,7 @@ npm run dev
 **Sunkara PurnaSekhar**
 - 🎓 BVC Engineering College — B.Tech CSE, GPA 8.42
 - 💼 2+ years building production AI and backend systems
-- 🔗 [GitHub](https://github.com/SekharSunkara6) | [LinkedIn](#) | [Portfolio](#)
+- 🔗 [GitHub](https://github.com/SekharSunkara6) | [LinkedIn](https://www.linkedin.com/in/sekhar-sunkara-1b869b1a8/) | [Portfolio](https://sekharsunkaraportfolio.netlify.app/)
 
 ---
 
