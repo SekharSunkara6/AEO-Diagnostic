@@ -159,12 +159,28 @@ export default function App() {
   };
 
   return (
-    <div style={{
-      minHeight: "100vh",
-      background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      padding: "40px 20px",
-      fontFamily: "'Inter', -apple-system, sans-serif"
-    }}>
+  <div style={{
+    minHeight: "100vh",
+    background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    fontFamily: "'Inter', -apple-system, sans-serif"
+  }}>
+
+    {/* Navbar with Pixii Logo */}
+<div style={{
+  background: "rgba(0,0,0,0.25)",
+  backdropFilter: "blur(10px)",
+  borderBottom: "1px solid rgba(255,255,255,0.1)",
+  padding: "12px 32px",
+  display: "flex",
+  alignItems: "center",
+}}>
+  <a href="https://www.pixii.ai" target="_blank" rel="noopener noreferrer" style={{cursor: "pointer", display: "flex", alignItems: "center"}}>
+    <img src="https://www.pixii.ai/_astro/pixii-logo-orange-dark.a8pfv8fW.svg" alt="Pixii" style={{height: "28px", objectFit: "contain"}} />
+  </a>
+</div>
+
+    {/* Main Content */}
+    <div style={{ padding: "40px 20px" }}>
       <div style={{
         maxWidth: "720px",
         margin: "0 auto"
@@ -199,7 +215,8 @@ export default function App() {
             Does AI recommend your product? Find out in seconds.
           </p>
         </div>
-
+        </div>
+      
         {/* Input Card */}
         <div style={{
           background: "white",
