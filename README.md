@@ -122,8 +122,8 @@ Content-Type: application/json
 ### Response
 ```json
 {
-  "query": "best magnesium supplement for seniors",
-  "product": "Nature Made",
+  "query": "best tool for building RAG pipelines in production",
+  "product": "LangChain",
   "grade": "A",
   "grade_color": "#22c55e",
   "message": "Excellent! All 3 AIs recommend your product.",
@@ -131,7 +131,7 @@ Content-Type: application/json
   "results": [
     {
       "model": "Llama 3.3 (Groq)",
-      "brands": ["Nature Made Magnesium", "..."],
+      "brands": ["LangChain", "LlamaIndex", "..."],
       "rank": 1,
       "ranked": true
     }
