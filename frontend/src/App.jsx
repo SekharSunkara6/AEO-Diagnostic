@@ -196,7 +196,7 @@ export default function App() {
             textTransform: "uppercase",
             marginBottom: "12px"
           }}>
-            Built for Pixii.ai
+            {/* Built for Pixii.ai */}
           </div>
           <h1 style={{
             fontSize: "42px",
@@ -212,7 +212,7 @@ export default function App() {
             color: "rgba(255,255,255,0.8)",
             margin: 0
           }}>
-            Does AI recommend your product? Find out in seconds.
+            Does your content exist to an AI agent? Find out in seconds.
           </p>
         </div>
         </div>
@@ -235,7 +235,7 @@ export default function App() {
               letterSpacing: "0.05em",
               marginBottom: "8px"
             }}>
-              Shopper Search Query
+              Query a user or agent might ask
             </label>
             <input
               type="text"
@@ -267,7 +267,7 @@ export default function App() {
               letterSpacing: "0.05em",
               marginBottom: "8px"
             }}>
-              Your Product / Brand Name
+              Your brand, product, or content topic
             </label>
             <input
               type="text"
@@ -389,7 +389,7 @@ export default function App() {
                 color: "rgba(255,255,255,0.9)",
                 textAlign: "center"
               }}>
-                💡 <strong>What is AEO?</strong> Answer Engine Optimization — making sure AI recommends your product when shoppers ask questions. The new SEO for Amazon sellers.
+                💡 <strong>What is AEO?</strong> Answer Engine Optimization — the emerging discipline of writing content that AI agents can actually parse, understand, and act on.
               </div>
             </div>
           </div>
