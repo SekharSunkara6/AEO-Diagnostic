@@ -239,7 +239,7 @@ export default function App() {
             </label>
             <input
               type="text"
-              placeholder='e.g. "best magnesium supplement for seniors"'
+              placeholder='e.g. "best tool for building RAG pipelines in production"'
               value={query}
               onChange={e => setQuery(e.target.value)}
               style={{
@@ -271,7 +271,7 @@ export default function App() {
             </label>
             <input
               type="text"
-              placeholder='e.g. "Nature Made Magnesium"'
+              placeholder='e.g. "LangChain"'
               value={product}
               onChange={e => setProduct(e.target.value)}
               style={{
@@ -389,7 +389,7 @@ export default function App() {
                 color: "rgba(255,255,255,0.9)",
                 textAlign: "center"
               }}>
-                💡 <strong>What is AEO?</strong> Answer Engine Optimization — the emerging discipline of writing content that AI agents can actually parse, understand, and act on.
+               💡 <strong>What is AEO?</strong> Answer Engine Optimization — writing content that AI agents can parse, understand, and act on.
               </div>
             </div>
           </div>
