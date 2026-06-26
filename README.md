@@ -1,8 +1,8 @@
 # 🔍 AEO Diagnostic - Answer Engine Optimization
 
-- ## Does your content exist to an AI agent? Find out in seconds.
+- # Does your content exist to an AI agent? Find out in seconds.
 
-Built by Sunkara PurnaSekhar.
+  Built by Sunkara PurnaSekhar.
 
 ---
 
