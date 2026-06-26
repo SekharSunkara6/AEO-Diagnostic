@@ -387,20 +387,20 @@ export default function App() {
                 <ModelCard key={i} result={r} />
               ))}
 
-              <div style={{
-                background: "rgba(255,255,255,0.15)",
-                borderRadius: "12px",
-                padding: "16px 20px",
-                marginTop: "8px"
-              }}>
-                <div style={{
-                  fontSize: "13px",
-                  color: "rgba(255,255,255,0.9)",
-                  textAlign: "center"
-                }}>
-                  💡 <strong>What is AEO?</strong> Answer Engine Optimization — writing content that AI agents can parse, understand, and act on.
-                </div>
-              </div>
+             <div style={{
+  background: "rgba(255,255,255,0.95)",
+  borderRadius: "12px",
+  padding: "16px 20px",
+  marginTop: "8px"
+}}>
+  <div style={{
+    fontSize: "13px",
+    color: "#1e293b",
+    textAlign: "center"
+  }}>
+    💡 <strong>What is AEO?</strong> Answer Engine Optimization - writing content that AI agents can parse, understand, and act on.
+  </div>
+</div>
             </div>
           )}
         </div>
