@@ -18,7 +18,7 @@
 
 ## 🎯 What is AEO Diagnostic?
 
-**AEO = Answer Engine Optimization - the emerging discipline of writing content that AI agents can actually parse, understand, and act on.
+# AEO = Answer Engine Optimization - the emerging discipline of writing content that AI agents can actually parse, understand, and act on.
 
 Most content teams optimize for Google. Almost none ask the harder question: when an AI agent reads this page, does it extract the right meaning? Does it recommend you, cite you, or ignore you entirely?
 
