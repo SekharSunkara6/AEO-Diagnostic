@@ -159,241 +159,251 @@ export default function App() {
   };
 
   return (
-  <div style={{
-    minHeight: "100vh",
-    background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-    fontFamily: "'Inter', -apple-system, sans-serif"
-  }}>
+    <div style={{
+      minHeight: "100vh",
+      background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      fontFamily: "'Inter', -apple-system, sans-serif"
+    }}>
 
-    {/* Navbar with Pixii Logo */}
-<div style={{
-  background: "rgba(0,0,0,0.25)",
-  backdropFilter: "blur(10px)",
-  borderBottom: "1px solid rgba(255,255,255,0.1)",
-  padding: "12px 32px",
-  display: "flex",
-  alignItems: "center",
-}}>
-  <a href="https://www.pixii.ai" target="_blank" rel="noopener noreferrer" style={{cursor: "pointer", display: "flex", alignItems: "center"}}>
-    <img src="https://www.pixii.ai/_astro/pixii-logo-orange-dark.a8pfv8fW.svg" alt="Pixii" style={{height: "28px", objectFit: "contain"}} />
-  </a>
-</div>
-
-    {/* Main Content */}
-    <div style={{ padding: "40px 20px" }}>
+      {/* Navbar with brand mark */}
       <div style={{
-        maxWidth: "720px",
-        margin: "0 auto"
+        background: "rgba(0,0,0,0.25)",
+        backdropFilter: "blur(10px)",
+        borderBottom: "1px solid rgba(255,255,255,0.1)",
+        padding: "14px 32px",
+        display: "flex",
+        alignItems: "center",
+        gap: "10px"
       }}>
-
-        {/* Header */}
-        <div style={{ textAlign: "center", marginBottom: "40px" }}>
-          <div style={{
-            fontSize: "13px",
-            fontWeight: "700",
-            color: "rgba(255,255,255,0.7)",
-            letterSpacing: "0.15em",
-            textTransform: "uppercase",
-            marginBottom: "12px"
-          }}>
-            {/* Built for Pixii.ai */}
-          </div>
-          <h1 style={{
-            fontSize: "42px",
-            fontWeight: "900",
-            color: "white",
-            margin: "0 0 12px 0",
-            lineHeight: 1.1
-          }}>
-            AEO Diagnostic
-          </h1>
-          <p style={{
-            fontSize: "17px",
-            color: "rgba(255,255,255,0.8)",
-            margin: 0
-          }}>
-            Does your content exist to an AI agent? Find out in seconds.
-          </p>
-        </div>
-        </div>
-      
-        {/* Input Card */}
         <div style={{
-          background: "white",
-          borderRadius: "16px",
-          padding: "32px",
-          boxShadow: "0 4px 24px rgba(0,0,0,0.12)",
-          marginBottom: "24px"
+          width: "28px",
+          height: "28px",
+          borderRadius: "8px",
+          background: "linear-gradient(135deg, #fb923c 0%, #f97316 100%)",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontWeight: "900",
+          fontSize: "15px",
+          color: "white"
         }}>
-          <div style={{ marginBottom: "20px" }}>
-            <label style={{
-              display: "block",
-              fontSize: "13px",
-              fontWeight: "700",
-              color: "#64748b",
-              textTransform: "uppercase",
-              letterSpacing: "0.05em",
-              marginBottom: "8px"
-            }}>
-              Query a user or agent might ask
-            </label>
-            <input
-              type="text"
-              placeholder='e.g. "best tool for building RAG pipelines in production"'
-              value={query}
-              onChange={e => setQuery(e.target.value)}
-              style={{
-                width: "100%",
-                padding: "12px 16px",
-                borderRadius: "8px",
-                border: "2px solid #e2e8f0",
-                fontSize: "15px",
-                outline: "none",
-                boxSizing: "border-box",
-                transition: "border-color 0.2s"
-              }}
-              onFocus={e => e.target.style.borderColor = "#667eea"}
-              onBlur={e => e.target.style.borderColor = "#e2e8f0"}
-            />
-          </div>
-
-          <div style={{ marginBottom: "24px" }}>
-            <label style={{
-              display: "block",
-              fontSize: "13px",
-              fontWeight: "700",
-              color: "#64748b",
-              textTransform: "uppercase",
-              letterSpacing: "0.05em",
-              marginBottom: "8px"
-            }}>
-              Your brand, product, or content topic
-            </label>
-            <input
-              type="text"
-              placeholder='e.g. "LangChain"'
-              value={product}
-              onChange={e => setProduct(e.target.value)}
-              style={{
-                width: "100%",
-                padding: "12px 16px",
-                borderRadius: "8px",
-                border: "2px solid #e2e8f0",
-                fontSize: "15px",
-                outline: "none",
-                boxSizing: "border-box",
-                transition: "border-color 0.2s"
-              }}
-              onFocus={e => e.target.style.borderColor = "#667eea"}
-              onBlur={e => e.target.style.borderColor = "#e2e8f0"}
-              onKeyDown={e => e.key === "Enter" && handleAnalyze()}
-            />
-          </div>
-
-          {error && (
-            <div style={{
-              background: "#fef2f2",
-              border: "1px solid #fecaca",
-              borderRadius: "8px",
-              padding: "12px 16px",
-              color: "#dc2626",
-              fontSize: "14px",
-              marginBottom: "16px"
-            }}>
-              {error}
-            </div>
-          )}
-
-          <button
-            onClick={handleAnalyze}
-            disabled={loading}
-            style={{
-              width: "100%",
-              padding: "14px",
-              background: loading ? "#94a3b8" : "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-              color: "white",
-              border: "none",
-              borderRadius: "10px",
-              fontSize: "16px",
-              fontWeight: "700",
-              cursor: loading ? "not-allowed" : "pointer",
-              transition: "opacity 0.2s"
-            }}
-          >
-            {loading ? "Querying 3 AI Engines..." : "Run AEO Diagnostic →"}
-          </button>
+          A
         </div>
+        <span style={{
+          fontWeight: "800",
+          fontSize: "16px",
+          color: "white",
+          letterSpacing: "0.02em"
+        }}>
+          AEO Diagnostic
+        </span>
+      </div>
 
-        {/* Loading */}
-        {loading && (
+      {/* Main Content */}
+      <div style={{ padding: "40px 20px" }}>
+        <div style={{
+          maxWidth: "720px",
+          margin: "0 auto"
+        }}>
+
+          {/* Header */}
+          <div style={{ textAlign: "center", marginBottom: "40px" }}>
+            <h1 style={{
+              fontSize: "42px",
+              fontWeight: "900",
+              color: "white",
+              margin: "0 0 12px 0",
+              lineHeight: 1.1
+            }}>
+              AEO Diagnostic
+            </h1>
+            <p style={{
+              fontSize: "17px",
+              color: "rgba(255,255,255,0.8)",
+              margin: 0
+            }}>
+              Does your content exist to an AI agent? Find out in seconds.
+            </p>
+          </div>
+
+          {/* Input Card */}
           <div style={{
             background: "white",
             borderRadius: "16px",
-            padding: "40px",
-            textAlign: "center",
-            boxShadow: "0 4px 24px rgba(0,0,0,0.08)"
+            padding: "32px",
+            boxShadow: "0 4px 24px rgba(0,0,0,0.12)",
+            marginBottom: "24px"
           }}>
-            <div style={{
-              fontSize: "32px",
-              marginBottom: "16px"
-            }}>⚡</div>
-            <div style={{
-              fontSize: "16px",
-              fontWeight: "600",
-              color: "#1e293b",
-              marginBottom: "8px"
-            }}>
-              Querying Gemini Flash, Gemini Pro & GPT-3.5...
+            <div style={{ marginBottom: "20px" }}>
+              <label style={{
+                display: "block",
+                fontSize: "13px",
+                fontWeight: "700",
+                color: "#64748b",
+                textTransform: "uppercase",
+                letterSpacing: "0.05em",
+                marginBottom: "8px"
+              }}>
+                Query a user or agent might ask
+              </label>
+              <input
+                type="text"
+                placeholder='e.g. "best tool for building RAG pipelines in production"'
+                value={query}
+                onChange={e => setQuery(e.target.value)}
+                style={{
+                  width: "100%",
+                  padding: "12px 16px",
+                  borderRadius: "8px",
+                  border: "2px solid #e2e8f0",
+                  fontSize: "15px",
+                  outline: "none",
+                  boxSizing: "border-box",
+                  transition: "border-color 0.2s"
+                }}
+                onFocus={e => e.target.style.borderColor = "#667eea"}
+                onBlur={e => e.target.style.borderColor = "#e2e8f0"}
+              />
             </div>
-            <div style={{
-              fontSize: "14px",
-              color: "#64748b"
-            }}>
-              This takes about 10 seconds
+
+            <div style={{ marginBottom: "24px" }}>
+              <label style={{
+                display: "block",
+                fontSize: "13px",
+                fontWeight: "700",
+                color: "#64748b",
+                textTransform: "uppercase",
+                letterSpacing: "0.05em",
+                marginBottom: "8px"
+              }}>
+                Your brand, product, or content topic
+              </label>
+              <input
+                type="text"
+                placeholder='e.g. "LangChain"'
+                value={product}
+                onChange={e => setProduct(e.target.value)}
+                style={{
+                  width: "100%",
+                  padding: "12px 16px",
+                  borderRadius: "8px",
+                  border: "2px solid #e2e8f0",
+                  fontSize: "15px",
+                  outline: "none",
+                  boxSizing: "border-box",
+                  transition: "border-color 0.2s"
+                }}
+                onFocus={e => e.target.style.borderColor = "#667eea"}
+                onBlur={e => e.target.style.borderColor = "#e2e8f0"}
+                onKeyDown={e => e.key === "Enter" && handleAnalyze()}
+              />
             </div>
+
+            {error && (
+              <div style={{
+                background: "#fef2f2",
+                border: "1px solid #fecaca",
+                borderRadius: "8px",
+                padding: "12px 16px",
+                color: "#dc2626",
+                fontSize: "14px",
+                marginBottom: "16px"
+              }}>
+                {error}
+              </div>
+            )}
+
+            <button
+              onClick={handleAnalyze}
+              disabled={loading}
+              style={{
+                width: "100%",
+                padding: "14px",
+                background: loading ? "#94a3b8" : "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+                color: "white",
+                border: "none",
+                borderRadius: "10px",
+                fontSize: "16px",
+                fontWeight: "700",
+                cursor: loading ? "not-allowed" : "pointer",
+                transition: "opacity 0.2s"
+              }}
+            >
+              {loading ? "Querying 3 AI Engines..." : "Run AEO Diagnostic →"}
+            </button>
           </div>
-        )}
 
-        {/* Results */}
-        {result && !loading && (
-          <div>
-            <GradeCard
-              grade={result.grade}
-              grade_color={result.grade_color}
-              message={result.message}
-              ranked_count={result.ranked_count}
-            />
+          {/* Loading */}
+          {loading && (
             <div style={{
-              fontSize: "13px",
-              fontWeight: "700",
-              color: "rgba(255,255,255,0.8)",
-              textTransform: "uppercase",
-              letterSpacing: "0.1em",
-              marginBottom: "12px",
-              paddingLeft: "4px"
-            }}>
-              AI Engine Breakdown
-            </div>
-            {result.results.map((r, i) => (
-              <ModelCard key={i} result={r} />
-            ))}
-
-            <div style={{
-              background: "rgba(255,255,255,0.15)",
-              borderRadius: "12px",
-              padding: "16px 20px",
-              marginTop: "8px"
+              background: "white",
+              borderRadius: "16px",
+              padding: "40px",
+              textAlign: "center",
+              boxShadow: "0 4px 24px rgba(0,0,0,0.08)"
             }}>
               <div style={{
-                fontSize: "13px",
-                color: "rgba(255,255,255,0.9)",
-                textAlign: "center"
+                fontSize: "32px",
+                marginBottom: "16px"
+              }}>⚡</div>
+              <div style={{
+                fontSize: "16px",
+                fontWeight: "600",
+                color: "#1e293b",
+                marginBottom: "8px"
               }}>
-               💡 <strong>What is AEO?</strong> Answer Engine Optimization — writing content that AI agents can parse, understand, and act on.
+                Querying Gemini Flash, Gemini Pro & GPT-3.5...
+              </div>
+              <div style={{
+                fontSize: "14px",
+                color: "#64748b"
+              }}>
+                This takes about 10 seconds
               </div>
             </div>
-          </div>
-        )}
+          )}
+
+          {/* Results */}
+          {result && !loading && (
+            <div>
+              <GradeCard
+                grade={result.grade}
+                grade_color={result.grade_color}
+                message={result.message}
+                ranked_count={result.ranked_count}
+              />
+              <div style={{
+                fontSize: "13px",
+                fontWeight: "700",
+                color: "rgba(255,255,255,0.8)",
+                textTransform: "uppercase",
+                letterSpacing: "0.1em",
+                marginBottom: "12px",
+                paddingLeft: "4px"
+              }}>
+                AI Engine Breakdown
+              </div>
+              {result.results.map((r, i) => (
+                <ModelCard key={i} result={r} />
+              ))}
+
+              <div style={{
+                background: "rgba(255,255,255,0.15)",
+                borderRadius: "12px",
+                padding: "16px 20px",
+                marginTop: "8px"
+              }}>
+                <div style={{
+                  fontSize: "13px",
+                  color: "rgba(255,255,255,0.9)",
+                  textAlign: "center"
+                }}>
+                  💡 <strong>What is AEO?</strong> Answer Engine Optimization — writing content that AI agents can parse, understand, and act on.
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
