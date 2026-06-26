@@ -1,8 +1,8 @@
-# 🔍 AEO Diagnostic — Built for Pixii.ai
+# 🔍 AEO Diagnostic - Answer Engine Optimization
 
-- **Does AI recommend your product?** Find out in seconds.
+- **Does your content exist to an AI agent? Find out in seconds.
 
-Built for the **Pixii.ai Founding Engineer Challenge 2026** by Sunkara PurnaSekhar.
+Built by Sunkara PurnaSekhar.
 
 ---
 
@@ -18,29 +18,35 @@ Built for the **Pixii.ai Founding Engineer Challenge 2026** by Sunkara PurnaSekh
 
 ## 🎯 What is AEO Diagnostic?
 
-**AEO = Answer Engine Optimization** — the new SEO for Amazon sellers.
+**AEO = Answer Engine Optimization - the emerging discipline of writing content that AI agents can actually parse, understand, and act on.
 
-When a shopper asks ChatGPT or Gemini *"best magnesium supplement for seniors"* — does your product show up?
+Most content teams optimize for Google. Almost none ask the harder question: when an AI agent reads this page, does it extract the right meaning? Does it recommend you, cite you, or ignore you entirely?
 
-Most Amazon sellers have no idea. That's the problem AEO Diagnostic solves.
+AEO Diagnostic makes that invisible problem visible.
 
 ### How it works:
-1. 📝 Paste any shopper search query
-2. 🏷️ Enter your product or brand name
-3. ⚡ AEO Diagnostic queries **3 AI engines simultaneously**
-4. 📊 Get a **report card** showing exactly where you rank vs competitors
+1. 📝 Paste any query a user or agent might ask
+2. 🏷️ Enter your brand, product, or content topic
+3. ⚡ Queries 3 AI engines simultaneously - not sequentially
+4. 📊 Returns a structured report showing exactly how each AI parsed, ranked, and cited your content
 
 ---
 
-## 🏆 Why This Matters for Pixii Customers
+## 🏆 Why This Problem Matters
 
-| Problem | Impact |
-|---|---|
-| AI doesn't recommend your product | Lost sales, wasted PPC spend |
-| You don't know your AI rank | Invisible competitive disadvantage |
-| Competitors rank higher on AI | They get the click, you don't |
+The audience for content is changing. More and more, what gets 
+written is read by agents as much as by people - summarizing, 
+routing, recommending, deciding.
 
-**AEO Diagnostic makes the invisible visible — in 2 seconds.**
+Content that isn't structured for agent consumption gets ignored, 
+misrepresented, or outranked by content that is.
+
+AEO Diagnostic is an experiment in making that gap measurable.
+
+Problem	Impact
+AI ignores your content	No citations, no recommendations
+Wrong content gets cited	Competitors get the attribution
+You can't see the gap	You can't fix what you can't measure
 
 ---
 
@@ -246,14 +252,13 @@ npm run dev
 
 ---
 
-## 🧪 Test Queries
-
-| Query | Product | Expected |
+## 🧪 Example Queries
+| Query | Brand / Topic | Expected |
 |---|---|---|
-| best protein powder for muscle gain | Optimum Nutrition | 🟢 A |
-| best running shoes for beginners | Nike | 🟢 A |
-| best magnesium supplement for seniors | Nature Made | 🔵 B/C |
-| best vitamin C supplement | Garden of Life | 🔵 B/C |
+| best tool for building RAG pipelines in production | LangChain | 🟢 A |
+| how to reduce hallucinations in LLM outputs | Anthropic | 🟢 A |
+| best framework for building AI agents | AutoGPT | 🔵 B/C |
+| what is answer engine optimization | Manicule | 🔴 F |
 
 ---
 
@@ -271,6 +276,5 @@ npm run dev
 ## 👨‍💻 Built By
 
 **Sunkara PurnaSekhar**
-- 🎓 BVC Engineering College — B.Tech CSE, GPA 8.42
-- 💼 2+ years building production AI and backend systems
+- 💼 2+ years building production AI systems, agent workflows, and content pipelines
 - 🔗 [GitHub](https://github.com/SekharSunkara6) | [LinkedIn](https://www.linkedin.com/in/sekhar-sunkara-1b869b1a8/) | [Portfolio](https://sekharsunkaraportfolio.netlify.app/)
