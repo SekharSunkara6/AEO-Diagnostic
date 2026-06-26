@@ -114,8 +114,8 @@ POST /api/analyze
 Content-Type: application/json
 
 {
-  "query": "best magnesium supplement for seniors",
-  "product": "Nature Made"
+  "query": "best tool for building RAG pipelines in production",
+  "product": "LangChain"
 }
 ```
 
@@ -267,7 +267,7 @@ npm run dev
 - 📈 **Weekly rank tracking** — monitor your AEO score over time
 - 🔔 **Email alerts** — get notified when your rank drops
 - 🏆 **Competitor comparison** — see exactly who's beating you and why
-- 🔗 **Pixii integration** — auto-generate better listing copy based on what AIs recommend
+- 🔗🔗 **Content optimization suggestions** — auto-generate restructured content based on what agents actually cited
 - 📊 **Dashboard** — historical trends, category benchmarks, actionable insights
 - 🌍 **Multi-market** — query AI engines in different languages for global sellers
 
